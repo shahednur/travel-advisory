@@ -7,7 +7,10 @@ function App() {
     <div className="App">
       <Header />
       <Sidebar />
-      <GoogleMap />
+      <div className="flex justify-center w-100 h-40 mt-4">
+        <GoogleMap />
+      </div>
+      
     </div>
   );
 }
